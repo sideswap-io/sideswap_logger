@@ -1,6 +1,6 @@
 name: sideswap_logger
 description: Sideswap custom logger
-version: 0.0.13
+version: 0.0.14
 
 environment:
   sdk: ^3.10.3

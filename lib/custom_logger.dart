@@ -74,7 +74,7 @@ class CustomLogger {
   }
 }
 
-class WrapperConsoleOutput extends log.LogOutput {
+class WrappedConsoleOutput extends log.LogOutput {
   void printWrapped(Object object) {
     final pattern = RegExp('.{1,800}'); // 800 is the size of each chunk
     pattern.allMatches('$object').forEach((match) async {
